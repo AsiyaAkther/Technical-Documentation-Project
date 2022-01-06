@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  .first-div{
+    width:25%;
+    float:left;
+  }
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 25%;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #04425a;
+  }
+  #navbar ul li {
+    list-style-type: none;
+    margin: 5px 0;
+  }
+  #navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background-color: #4b646d;
+    width: 80%;
+    display: block;
+    padding: 7px 0;
+    margin: 0 auto;
+    border-radius: 50px;
+  }
+  .sec-div{
+    width:75%;
+    float:right;
+    padding: 15px 20px;
+  }
+  #main-doc {
+    background-color: #6693a3;
+    color:#333;
+  }
+  .main-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .main-section p {
+    font-size: 1.2rem;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .main-section ul {
+    padding: 0 25px;
+    margin-bottom: 15px;
+  }
+  .main-section ul li {
+    font-size: 1.1rem;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .main-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  @media screen and (max-width:600px){
+  .first-div{
+    width:40%;
+  }
+  #navbar {
+    width: 40%;
+  }
+  #navbar h1 {
+    padding-top:15px;
+    font-size: 1.5rem;
+  }
+  #navbar ul li a {
+    font-size: 0.8rem;
+    width: 90%;
+  }
+  .sec-div{
+    width:60%;
+  }
+  .main-section header {
+    font-size: 1.5rem;
+  }
+  .main-section p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .main-section ul li {
+    font-size: 0.9rem;
+  }
+  .main-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  }
+  
